@@ -2,17 +2,17 @@
 
 Une application web moderne de streaming de films construite avec Vue.js et Firebase.
 
-## Fonctionnalités
+## 🌟 Fonctionnalités
 
-- Parcourir les films populaires
-- Recherche de films
-- Filtrage par genre
-- Authentification utilisateur
-- Gestion des favoris
-- Recommandations personnalisées
-- Interface responsive
+- 🎬 Parcourir les films populaires
+- 🔍 Recherche de films
+- 🏷️ Filtrage par genre
+- 👤 Authentification utilisateur
+- ❤️ Gestion des favoris
+- 🎯 Recommandations personnalisées
+- 📱 Interface responsive
 
-## Technologies Utilisées
+## 🛠️ Technologies Utilisées
 
 - Vue.js 3 (Composition API)
 - Pinia pour la gestion d'état
@@ -20,11 +20,11 @@ Une application web moderne de streaming de films construite avec Vue.js et Fire
 - TMDB API pour les données de films
 - Vite comme outil de build
 
-## Installation
+## 🚀 Installation
 
 1. Cloner le repository
 ```bash
-git clone https://github.com/votre-username/moviestream.git
+git clone https://github.com/FatoumataM-27/moviestream.git
 cd moviestream
 ```
 
@@ -50,7 +50,7 @@ VITE_TMDB_API_KEY=votre_clé_api_tmdb
 npm run dev
 ```
 
-## Structure du Projet
+## 📁 Structure du Projet
 
 ```
 src/
@@ -63,7 +63,7 @@ src/
 └── App.vue          # Composant racine
 ```
 
-## Branches
+## 🌿 Branches
 
 - `main` : Code de production
 - `develop` : Branche de développement principale
@@ -71,7 +71,7 @@ src/
 - `bugfix/*` : Branches pour les corrections de bugs
 - `release/*` : Branches de préparation des releases
 
-## Convention de Commits
+## 📝 Convention de Commits
 
 Nous suivons la convention de commits suivante :
 - `feat:` Nouvelle fonctionnalité
@@ -82,13 +82,13 @@ Nous suivons la convention de commits suivante :
 - `test:` Tests
 - `chore:` Tâches de maintenance
 
-## Contribution
+## 👥 Contribution
 
 1. Créer une branche depuis `develop`
 2. Implémenter les changements
 3. Créer une Pull Request vers `develop`
 4. Attendre la review et l'approbation
 
-## Licence
+## 📄 Licence
 
 MIT License
