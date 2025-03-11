@@ -1,6 +1,12 @@
-# MovieStream - Application de Streaming de Films
+# 🎬 MovieStream
 
-Une application web moderne de streaming de films construite avec Vue.js et Firebase.
+## Application de streaming de films avec Vue.js et Firebase
+
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+![TMDB](https://img.shields.io/badge/TMDB-01B4E4?style=for-the-badge&logo=themoviedatabase&logoColor=white)
+
+Une application web moderne permettant aux utilisateurs de découvrir, rechercher et sauvegarder leurs films préférés. Construite avec Vue.js pour le frontend et Firebase pour l'authentification et le stockage des données.
 
 ## 🌟 Fonctionnalités
 
