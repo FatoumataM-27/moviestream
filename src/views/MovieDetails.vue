@@ -92,6 +92,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue';
 import { useRoute } from 'vue-router';
+import { getMovieDetails, getMovieRecommendations } from '../services/tmdb.js';
 
 const route = useRoute();
 const movie = ref(null);
@@ -170,11 +171,22 @@ const toggleFavorite = () => {
   // Dans une application réelle, nous enverrions une requête à l'API pour mettre à jour les favoris
 };
 
-onMounted(() => {
-  // Simuler le chargement des données depuis une API
-  setTimeout(() => {
-    movie.value = mockMovie;
-  }, 500);
+onMounted(async () => {
+  try {
+    // Récupérer l'ID du film depuis les paramètres de route
+    const movieId = route.params.id;
+    
+    // Dans une application réelle, nous utiliserions ces fonctions pour obtenir les données
+    // const movieData = await getMovieDetails(movieId);
+    // const recommendations = await getMovieRecommendations(movieId);
+    
+    // Pour l'instant, nous utilisons les données fictives
+    setTimeout(() => {
+      movie.value = mockMovie;
+    }, 500);
+  } catch (error) {
+    console.error('Erreur lors du chargement des détails du film:', error);
+  }
 });
 </script>
 
